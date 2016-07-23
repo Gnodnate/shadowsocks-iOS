@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401A2B1E3E969AE99CA6BB22 /* Pods_libshadowsocks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 658C32C200BBB9AA0E6091FB /* Pods_libshadowsocks.framework */; };
 		5DDE908EAFC268BD2CD74ED8 /* libPods-ShadowsocksX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A4EAA03EBD647A481B02A9A /* libPods-ShadowsocksX.a */; };
 		6205309618D4443E00887D3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621571AA16CF6BCB003D96B4 /* Foundation.framework */; };
 		6205309918D4443E00887D3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6205309818D4443E00887D3E /* main.m */; };
@@ -34,10 +35,6 @@
 		621571EF16CF782C003D96B4 /* SWBNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571EE16CF782C003D96B4 /* SWBNetworkActivityIndicatorManager.m */; };
 		621571F616CF7FA7003D96B4 /* SWBPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571F116CF7FA6003D96B4 /* SWBPage.m */; };
 		621571F716CF7FA7003D96B4 /* SWBPageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 621571F316CF7FA6003D96B4 /* SWBPageManager.m */; };
-		621FCC0217603FFA00411E5F /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFA17603FFA00411E5F /* GCDWebServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		621FCC0317603FFA00411E5F /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFC17603FFA00411E5F /* GCDWebServerConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		621FCC0417603FFA00411E5F /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFF17603FFA00411E5F /* GCDWebServerRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		621FCC0517603FFA00411E5F /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCC0117603FFA00411E5F /* GCDWebServerResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		621FCC071760400400411E5F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621FCC061760400400411E5F /* MobileCoreServices.framework */; };
 		621FCC091760400800411E5F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621FCC081760400800411E5F /* CFNetwork.framework */; };
 		622BE4E318B6FBD700F22683 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 627A6E1018B47E9300493BBC /* Images.xcassets */; };
@@ -65,7 +62,6 @@
 		6274847018B1FD6500A9CDF0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274846F18B1FD6500A9CDF0 /* CoreMedia.framework */; };
 		6274847218B1FD6F00A9CDF0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274847118B1FD6F00A9CDF0 /* QuartzCore.framework */; };
 		6274847418B1FD7900A9CDF0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274847318B1FD7900A9CDF0 /* ImageIO.framework */; };
-		6274847518B1FD9B00A9CDF0 /* libZXingObjC-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6274846218B1FD4200A9CDF0 /* libZXingObjC-iOS.a */; };
 		627A6DF918B47E9300493BBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627A6DF818B47E9300493BBC /* Cocoa.framework */; };
 		627A6E0318B47E9300493BBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 627A6E0118B47E9300493BBC /* InfoPlist.strings */; };
 		627A6E0518B47E9300493BBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627A6E0418B47E9300493BBC /* main.m */; };
@@ -85,10 +81,6 @@
 		628C91C41A07AB4500BA1566 /* Configuration.m in Sources */ = {isa = PBXBuildFile; fileRef = 628C91C31A07AB4500BA1566 /* Configuration.m */; };
 		628C91C61A07B6C800BA1566 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628C91C51A07B6C800BA1566 /* QuartzCore.framework */; };
 		629AC93318B49341001D2771 /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = 629AC93218B49341001D2771 /* Application.xib */; };
-		629AC93418B49676001D2771 /* GCDWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFA17603FFA00411E5F /* GCDWebServer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		629AC93518B49676001D2771 /* GCDWebServerConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFC17603FFA00411E5F /* GCDWebServerConnection.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		629AC93618B49676001D2771 /* GCDWebServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCBFF17603FFA00411E5F /* GCDWebServerRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		629AC93718B49676001D2771 /* GCDWebServerResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 621FCC0117603FFA00411E5F /* GCDWebServerResponse.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		62CD119A175E3BD7008C4D0C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CD1199175E3BD7008C4D0C /* libcrypto.a */; };
 		62CD9190178977B500B2CB55 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62CD918F178977B500B2CB55 /* MessageUI.framework */; };
 		62D85A8D176DA6FC00FE5575 /* atom.c in Sources */ = {isa = PBXBuildFile; fileRef = 62D85A4E176DA6FB00FE5575 /* atom.c */; };
@@ -132,7 +124,6 @@
 		62E2E19B1A5AB23700C9A2E1 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E2E19A1A5AB23700C9A2E1 /* Security.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		62E2E19D1A5ABE5C00C9A2E1 /* abp.js in Resources */ = {isa = PBXBuildFile; fileRef = 62E2E19C1A5ABE5C00C9A2E1 /* abp.js */; };
 		96D80C05176CE1D7006C8078 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D80C04176CE1D7006C8078 /* AVFoundation.framework */; };
-		AE3D9C68613CE52808175543 /* libPods-libshadowsocks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9CD125F59C88AE2BDE729AC /* libPods-libshadowsocks.a */; };
 		EB18906527B59E4F6A70A14A /* ShadowsocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = EB1897A89055A4C2CFD81AF8 /* ShadowsocksRunner.m */; };
 		EB189096BC8B91FA0F60A34C /* 3gnet_disable.mobileconfig in Resources */ = {isa = PBXBuildFile; fileRef = EB1897AD03717EB5E44BA24B /* 3gnet_disable.mobileconfig */; };
 		EB1890D6331E61914013309F /* polipo_disable.config in Resources */ = {isa = PBXBuildFile; fileRef = EB189F29205BA2AB998B867D /* polipo_disable.config */; };
@@ -161,48 +152,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 623A7EB91795AE8000DF11DF;
 			remoteInfo = libshadowsocks;
-		};
-		6274846118B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25403CB3166A96FA00E13304;
-			remoteInfo = "ZXingObjC-iOS";
-		};
-		6274846318B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25403CC4166A96FA00E13304;
-			remoteInfo = "ZXingObjCTests-iOS";
-		};
-		6274846518B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25404166166AADAC00E13304;
-			remoteInfo = "ZXingObjC-osx";
-		};
-		6274846718B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 25404178166AADAC00E13304;
-			remoteInfo = "ZXingObjCTests-osx";
-		};
-		6274846918B1FD4200A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2540439E166ABA0A00E13304;
-			remoteInfo = "OS X Framework";
-		};
-		6274846B18B1FD4A00A9CDF0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 25403CB2166A96FA00E13304;
-			remoteInfo = "ZXingObjC-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -263,15 +212,6 @@
 		621571F116CF7FA6003D96B4 /* SWBPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBPage.m; sourceTree = "<group>"; };
 		621571F216CF7FA6003D96B4 /* SWBPageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWBPageManager.h; sourceTree = "<group>"; };
 		621571F316CF7FA6003D96B4 /* SWBPageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWBPageManager.m; sourceTree = "<group>"; };
-		621FCBF917603FFA00411E5F /* GCDWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDWebServer.h; path = GCDWebServer/CGDWebServer/GCDWebServer.h; sourceTree = SOURCE_ROOT; };
-		621FCBFA17603FFA00411E5F /* GCDWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDWebServer.m; path = GCDWebServer/CGDWebServer/GCDWebServer.m; sourceTree = SOURCE_ROOT; };
-		621FCBFB17603FFA00411E5F /* GCDWebServerConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDWebServerConnection.h; path = GCDWebServer/CGDWebServer/GCDWebServerConnection.h; sourceTree = SOURCE_ROOT; };
-		621FCBFC17603FFA00411E5F /* GCDWebServerConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerConnection.m; path = GCDWebServer/CGDWebServer/GCDWebServerConnection.m; sourceTree = SOURCE_ROOT; };
-		621FCBFD17603FFA00411E5F /* GCDWebServerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDWebServerPrivate.h; path = GCDWebServer/CGDWebServer/GCDWebServerPrivate.h; sourceTree = SOURCE_ROOT; };
-		621FCBFE17603FFA00411E5F /* GCDWebServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDWebServerRequest.h; path = GCDWebServer/CGDWebServer/GCDWebServerRequest.h; sourceTree = SOURCE_ROOT; };
-		621FCBFF17603FFA00411E5F /* GCDWebServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerRequest.m; path = GCDWebServer/CGDWebServer/GCDWebServerRequest.m; sourceTree = SOURCE_ROOT; };
-		621FCC0017603FFA00411E5F /* GCDWebServerResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GCDWebServerResponse.h; path = GCDWebServer/CGDWebServer/GCDWebServerResponse.h; sourceTree = SOURCE_ROOT; };
-		621FCC0117603FFA00411E5F /* GCDWebServerResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GCDWebServerResponse.m; path = GCDWebServer/CGDWebServer/GCDWebServerResponse.m; sourceTree = SOURCE_ROOT; };
 		621FCC061760400400411E5F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		621FCC081760400800411E5F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		622BE4E418B7307200F22683 /* menu_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_icon@2x.png"; sourceTree = "<group>"; };
@@ -290,7 +230,6 @@
 		625E5BC319EA3A6B007A5124 /* qrcode.htm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qrcode.htm; sourceTree = "<group>"; };
 		626C4AD918B1E352003DBE33 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "NSData-Base64/NSData+Base64.h"; sourceTree = SOURCE_ROOT; };
 		626C4ADA18B1E352003DBE33 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "NSData-Base64/NSData+Base64.m"; sourceTree = SOURCE_ROOT; };
-		6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZXingObjC.xcodeproj; path = "zxing-objc/ZXingObjC.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		6274846D18B1FD5C00A9CDF0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		6274846F18B1FD6500A9CDF0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		6274847118B1FD6F00A9CDF0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -419,9 +358,9 @@
 		62E2E1981A5AB21E00C9A2E1 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		62E2E19A1A5AB23700C9A2E1 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		62E2E19C1A5ABE5C00C9A2E1 /* abp.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = abp.js; sourceTree = "<group>"; };
+		658C32C200BBB9AA0E6091FB /* Pods_libshadowsocks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libshadowsocks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF0FABA7BB850F2E29302BD /* Pods-ShadowsocksX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShadowsocksX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShadowsocksX/Pods-ShadowsocksX.debug.xcconfig"; sourceTree = "<group>"; };
 		96D80C04176CE1D7006C8078 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		C9CD125F59C88AE2BDE729AC /* libPods-libshadowsocks.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-libshadowsocks.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB189069EF341E65B5414D00 /* QRCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeViewController.h; sourceTree = "<group>"; };
 		EB189071407B3A2A9B4C83CB /* ProfileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileManager.h; sourceTree = "<group>"; };
 		EB1891B68FCBD841C5E461B6 /* About.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = About.md; sourceTree = SOURCE_ROOT; };
@@ -461,7 +400,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E27E5C18C1D0F90086033D /* libz.dylib in Frameworks */,
-				6274847518B1FD9B00A9CDF0 /* libZXingObjC-iOS.a in Frameworks */,
 				6274847418B1FD7900A9CDF0 /* ImageIO.framework in Frameworks */,
 				6274847218B1FD6F00A9CDF0 /* QuartzCore.framework in Frameworks */,
 				6274847018B1FD6500A9CDF0 /* CoreMedia.framework in Frameworks */,
@@ -486,7 +424,7 @@
 			files = (
 				623A7EBB1795AE8000DF11DF /* Foundation.framework in Frameworks */,
 				623A7ECC1795B15500DF11DF /* libcrypto.a in Frameworks */,
-				AE3D9C68613CE52808175543 /* libPods-libshadowsocks.a in Frameworks */,
+				401A2B1E3E969AE99CA6BB22 /* Pods_libshadowsocks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +522,7 @@
 				627A6E1718B47E9300493BBC /* XCTest.framework */,
 				627A6DFA18B47E9300493BBC /* Other Frameworks */,
 				4A4EAA03EBD647A481B02A9A /* libPods-ShadowsocksX.a */,
-				C9CD125F59C88AE2BDE729AC /* libPods-libshadowsocks.a */,
+				658C32C200BBB9AA0E6091FB /* Pods_libshadowsocks.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -593,10 +531,8 @@
 			isa = PBXGroup;
 			children = (
 				62E27E5618C1D0C00086033D /* gzip */,
-				6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */,
 				626C4AD818B1E338003DBE33 /* base64 */,
 				62D85969176DA63C00FE5575 /* polipo */,
-				621FCBF817603FD600411E5F /* GCDWebServer */,
 				628693FA16DA2823008B1A26 /* Shadowsocks */,
 				628693F916DA281C008B1A26 /* libev */,
 				628693DE16DA2564008B1A26 /* AppProxyCap */,
@@ -689,22 +625,6 @@
 			name = Others;
 			sourceTree = "<group>";
 		};
-		621FCBF817603FD600411E5F /* GCDWebServer */ = {
-			isa = PBXGroup;
-			children = (
-				621FCBF917603FFA00411E5F /* GCDWebServer.h */,
-				621FCBFA17603FFA00411E5F /* GCDWebServer.m */,
-				621FCBFB17603FFA00411E5F /* GCDWebServerConnection.h */,
-				621FCBFC17603FFA00411E5F /* GCDWebServerConnection.m */,
-				621FCBFD17603FFA00411E5F /* GCDWebServerPrivate.h */,
-				621FCBFE17603FFA00411E5F /* GCDWebServerRequest.h */,
-				621FCBFF17603FFA00411E5F /* GCDWebServerRequest.m */,
-				621FCC0017603FFA00411E5F /* GCDWebServerResponse.h */,
-				621FCC0117603FFA00411E5F /* GCDWebServerResponse.m */,
-			);
-			name = GCDWebServer;
-			sourceTree = "<group>";
-		};
 		626C4AD818B1E338003DBE33 /* base64 */ = {
 			isa = PBXGroup;
 			children = (
@@ -712,18 +632,6 @@
 				626C4ADA18B1E352003DBE33 /* NSData+Base64.m */,
 			);
 			name = base64;
-			sourceTree = "<group>";
-		};
-		6274845A18B1FD4000A9CDF0 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6274846218B1FD4200A9CDF0 /* libZXingObjC-iOS.a */,
-				6274846418B1FD4200A9CDF0 /* ZXingObjCTests-iOS.octest */,
-				6274846618B1FD4200A9CDF0 /* libZXingObjC-osx.a */,
-				6274846818B1FD4200A9CDF0 /* ZXingObjCTests-osx.octest */,
-				6274846A18B1FD4200A9CDF0 /* ZXingObjC.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		627A6DFA18B47E9300493BBC /* Other Frameworks */ = {
@@ -973,7 +881,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				6274846C18B1FD4A00A9CDF0 /* PBXTargetDependency */,
 				623A7ECE1795B1C200DF11DF /* PBXTargetDependency */,
 			);
 			name = shadowsocks;
@@ -1043,12 +950,6 @@
 			mainGroup = 6215719C16CF6BCA003D96B4;
 			productRefGroup = 621571A616CF6BCB003D96B4 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6274845A18B1FD4000A9CDF0 /* Products */;
-					ProjectRef = 6274845918B1FD4000A9CDF0 /* ZXingObjC.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				621571A416CF6BCB003D96B4 /* shadowsocks */,
@@ -1058,44 +959,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6274846218B1FD4200A9CDF0 /* libZXingObjC-iOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libZXingObjC-iOS.a";
-			remoteRef = 6274846118B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6274846418B1FD4200A9CDF0 /* ZXingObjCTests-iOS.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ZXingObjCTests-iOS.octest";
-			remoteRef = 6274846318B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6274846618B1FD4200A9CDF0 /* libZXingObjC-osx.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libZXingObjC-osx.a";
-			remoteRef = 6274846518B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6274846818B1FD4200A9CDF0 /* ZXingObjCTests-osx.octest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "ZXingObjCTests-osx.octest";
-			remoteRef = 6274846718B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6274846A18B1FD4200A9CDF0 /* ZXingObjC.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = ZXingObjC.framework;
-			remoteRef = 6274846918B1FD4200A9CDF0 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		621571A316CF6BCB003D96B4 /* Resources */ = {
@@ -1267,10 +1130,6 @@
 				628693E116DA2578008B1A26 /* AppProxyCap.m in Sources */,
 				628693E716DA2584008B1A26 /* interpose.c in Sources */,
 				628693F816DA2817008B1A26 /* ProxySettingsTableViewController.m in Sources */,
-				621FCC0217603FFA00411E5F /* GCDWebServer.m in Sources */,
-				621FCC0317603FFA00411E5F /* GCDWebServerConnection.m in Sources */,
-				621FCC0417603FFA00411E5F /* GCDWebServerRequest.m in Sources */,
-				621FCC0517603FFA00411E5F /* GCDWebServerResponse.m in Sources */,
 				EB1891FD5CE9480608918422 /* SimpleTableViewSource.m in Sources */,
 				62D85A8D176DA6FC00FE5575 /* atom.c in Sources */,
 				62D85A8E176DA6FC00FE5575 /* auth.c in Sources */,
@@ -1322,11 +1181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E27E5A18C1D0CF0086033D /* GZIP.m in Sources */,
-				629AC93418B49676001D2771 /* GCDWebServer.m in Sources */,
 				628C91BD1A07AA5800BA1566 /* Profile.m in Sources */,
-				629AC93518B49676001D2771 /* GCDWebServerConnection.m in Sources */,
-				629AC93618B49676001D2771 /* GCDWebServerRequest.m in Sources */,
-				629AC93718B49676001D2771 /* GCDWebServerResponse.m in Sources */,
 				627A6E4118B47FAE00493BBC /* encrypt.c in Sources */,
 				627A6E4218B47FAE00493BBC /* table.m in Sources */,
 				627A6E4318B47FAE00493BBC /* local.m in Sources */,
@@ -1354,11 +1209,6 @@
 			isa = PBXTargetDependency;
 			target = 623A7EB91795AE8000DF11DF /* libshadowsocks */;
 			targetProxy = 623A7ECD1795B1C200DF11DF /* PBXContainerItemProxy */;
-		};
-		6274846C18B1FD4A00A9CDF0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ZXingObjC-iOS";
-			targetProxy = 6274846B18B1FD4A00A9CDF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1669,7 +1519,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "ShadowsocksX/ShadowsocksX-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
@@ -1700,7 +1550,7 @@
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				INFOPLIST_FILE = "ShadowsocksX/ShadowsocksX-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
