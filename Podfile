@@ -3,7 +3,7 @@ target 'shadowsocks' do
   platform :ios, '9.0'
   pod 'libsodium', '~> 1.0.3'
   pod 'AFNetworking', '~> 2.5.0'
-  pod 'ZXingObjC', '= 3.0.0'
+  pod 'ZXingObjC', '= 3.2.1'
   pod 'GCDWebServer', '~> 1.2'
 end
 
