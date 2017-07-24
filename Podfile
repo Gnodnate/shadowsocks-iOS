@@ -1,4 +1,4 @@
-target 'libshadowsocks' do
+target 'shadowsocks' do
   use_frameworks!
   platform :ios, '9.0'
   pod 'libsodium', '~> 1.0.3'
@@ -8,6 +8,7 @@ target 'libshadowsocks' do
 end
 
 target 'ShadowsocksX' do
+  use_frameworks!
   platform :osx, '10.10'
   pod 'libsodium', '~> 1.0.3'
   pod 'AFNetworking', '~> 2.5.0'
